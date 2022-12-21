@@ -25,9 +25,10 @@ public class Ejemplo03 {
             arregloUnidimensional = arreglo1[fila]; // como obtener el tamaño 
                                                     // del arreglo unidensional 
                                                     // en funcion de la columnas
-            System.out.printf("La fila es: %d\n", fila);
-            System.out.printf("El tamaño de su columna es: %d\n", 
-                    arregloUnidimensional.length);
+            System.out.printf("La fila es: %d\nEl tamaño de su columna es: %d\n"
+                    , fila, arregloUnidimensional.length);
+           // System.out.printf("El tamaño de su columna es: %d\n", 
+                  //  arregloUnidimensional.length);
             
             
             System.out.println("--------------------------------");

@@ -29,7 +29,7 @@ public class Ejemplo021 {
             for (int col = 0; col < arreglo1[fila].length; col++) {
               //  System.out.printf("fila[%d] columna[%d] = %d\n", 
                  //       fila, col, arreglo1[fila][col]);
-                 cadenaFinal = String.format("%sfila[%d] columna[%d]= %d\n"
+                 cadenaFinal = String.format("%sfila[%d] columna[%d] = %d\n"
                          ,cadenaFinal
                          ,fila
                          ,col

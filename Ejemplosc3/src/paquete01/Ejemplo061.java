@@ -9,7 +9,7 @@ package paquete01;
  *
  * @author reroes
  */
-public class Ejemplo05 {
+public class Ejemplo061 {
 
     /**
      * @param args the command line arguments
@@ -18,6 +18,7 @@ public class Ejemplo05 {
         // Creación de arreglo bidimensionales
         
         int[][] arreglo1 = {{10, 41, 40}, {1, 2, 3}};
+        String cadena = " ";
         /*
         10      41      40
         1       2       3
@@ -26,14 +27,17 @@ public class Ejemplo05 {
         int valor;
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
-                valor =  arreglo1[fila][col]; 
-                if (valor%2==0){
+                valor = arreglo1[fila][col];
+                if (fila==col){
                     suma = suma + valor;
+                    cadena = String.format("%s\n%d"
+                            ,cadena, arreglo1[fila][col]);
                 }
                 
             }
         }
-        System.out.printf("Suma de valores del arreglo: %d\n", suma);
+        System.out.printf("La suma de:%s\nLa suma es igual: %d\n", cadena, suma);
+       
     }
     
 }
